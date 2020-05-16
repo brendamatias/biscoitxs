@@ -1,5 +1,5 @@
 import React, { useCallback, useRef } from 'react';
-import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
+import { FiArrowLeft, FiMail, FiUser, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 
@@ -12,7 +12,7 @@ import { Container, Content, Background } from './styles';
 
 import getValidationErrors from '~/utils/getValidationErrors';
 
-export default function SignIn() {
+export default function SignUp() {
   const formRef = useRef(null);
 
   const handleSubmit = useCallback(async data => {
@@ -24,7 +24,10 @@ export default function SignIn() {
         email: Yup.string()
           .required('E-mail obrigatório')
           .email(),
-        password: Yup.string().required('Senha obrigatória'),
+        password: Yup.string().min(
+          6,
+          'A senha deve conter no mínimo 6 dígitos'
+        ),
       });
 
       await schema.validate(data, { abortEarly: false });
@@ -39,12 +42,15 @@ export default function SignIn() {
 
   return (
     <Container>
+      <Background />
+
       <Content>
         <img src={logo} alt="Biscoitxs" />
 
         <Form ref={formRef} onSubmit={handleSubmit}>
-          <h1>Faça seu login</h1>
+          <h1>Faça seu cadastro</h1>
 
+          <Input name="name" icon={FiUser} placeholder="Nome completo" />
           <Input name="email" icon={FiMail} placeholder="Email" />
           <Input
             name="password"
@@ -53,17 +59,13 @@ export default function SignIn() {
             placeholder="Senha"
           />
 
-          <Button type="submit">Entrar</Button>
-
-          <a href="forgot">Esqueci minha senha</a>
+          <Button type="submit">Cadastrar</Button>
         </Form>
 
         <a href="register">
-          <FiLogIn /> Criar conta
+          <FiArrowLeft /> Já tenho uma conta
         </a>
       </Content>
-
-      <Background />
     </Container>
   );
 }
