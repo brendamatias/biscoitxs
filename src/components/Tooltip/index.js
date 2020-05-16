@@ -15,5 +15,5 @@ export default function Tooltip({ title, className, children }) {
 Tooltip.propTypes = {
   title: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
-  // children
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.func]).isRequired,
 };

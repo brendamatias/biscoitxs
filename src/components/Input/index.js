@@ -53,5 +53,9 @@ export default function Input({ name, icon: Icon, ...rest }) {
 
 Input.propTypes = {
   name: PropTypes.string.isRequired,
-  // icon
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
+};
+
+Input.defaultProps = {
+  icon: '',
 };
