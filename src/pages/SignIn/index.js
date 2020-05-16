@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
@@ -21,7 +21,7 @@ export default function SignIn() {
 
   const formRef = useRef(null);
 
-  const handleSubmit = useCallback(async data => {
+  async function handleSubmit(data) {
     try {
       formRef.current.setErrors({});
 
@@ -44,7 +44,7 @@ export default function SignIn() {
         formRef.current.setErrors(errors);
       }
     }
-  }, []);
+  }
 
   return (
     <Container>
@@ -63,7 +63,7 @@ export default function SignIn() {
               placeholder="Senha"
             />
 
-            <Button type="submit">Entrar</Button>
+            <Button type="submit">{loading ? 'Carregando' : 'Entrar'}</Button>
 
             <a href="forgot">Esqueci minha senha</a>
           </Form>

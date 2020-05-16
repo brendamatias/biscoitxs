@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { FiArrowLeft, FiMail, FiUser, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
@@ -20,7 +20,7 @@ export default function SignUp() {
   const dispatch = useDispatch();
   const formRef = useRef(null);
 
-  const handleSubmit = useCallback(async data => {
+  async function handleSubmit(data) {
     try {
       formRef.current.setErrors({});
 
@@ -49,7 +49,7 @@ export default function SignUp() {
         formRef.current.setErrors(errors);
       }
     }
-  }, []);
+  }
 
   return (
     <Container>
@@ -80,7 +80,7 @@ export default function SignUp() {
             <Button type="submit">Cadastrar</Button>
           </Form>
 
-          <Link to="/">
+          <Link to="/login">
             <FiArrowLeft /> Já tenho uma conta
           </Link>
         </AnimationContainer>
