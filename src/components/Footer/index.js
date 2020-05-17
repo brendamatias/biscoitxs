@@ -17,10 +17,11 @@ export default function Footer() {
             <li>
               <strong>sobre nós</strong>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make
+                olá a todes! somos 4 mulheres participante do #ficaemcasahack,
+                que juntas pensamos em como desenvolver uma ideia de market
+                place para divulgação, capacitação e crescimento profissional da
+                comunidade lgbtqia+. sejam todes bem vindes pois essa casa é
+                nossa.
               </p>
             </li>
             <li>

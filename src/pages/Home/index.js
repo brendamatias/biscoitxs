@@ -62,11 +62,6 @@ export default function Home() {
       <App>
         <div className="container">
           <h1>baixe nosso app!</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been.
-          </p>
-          <p>The industry standard dummy text ever since the 1500</p>
 
           <ListApp>
             <img src={app} alt="App Biscoitxs" />
@@ -75,30 +70,38 @@ export default function Home() {
                 <li>
                   <Circle color="#FF6494" />
                   <div>
-                    <strong>Lorem Ipsum is simply dummy?</strong>
+                    <strong>
+                      nada de pensar em desistir do negócio menine, vem com a
+                      gente!
+                    </strong>
                     <span>
-                      The printing and typesetting industry. Lorem Ipsum has
-                      been.
+                      um conjunto de cursos visando capacitação prática nas
+                      áreas de empreendedorismo, marketing digital, controle de
+                      finanças e muito mais.
                     </span>
                   </div>
                 </li>
                 <li>
                   <Circle color="#00CE98" />
                   <div>
-                    <strong>Lorem Ipsum is simply dummy?</strong>
+                    <strong>bora botar essa cara no sol?</strong>
                     <span>
-                      The printing and typesetting industry. Lorem Ipsum has
-                      been.
+                      divulgue e empreenda com eficiência e segurança! nesta
+                      plataforma você poderá cadastrar seus produtos/serviços
+                      sem medo de ser quem é.
                     </span>
                   </div>
                 </li>
                 <li>
                   <Circle color="#747DFF" />
                   <div>
-                    <strong>Lorem Ipsum is simply dummy?</strong>
+                    <strong>
+                      só tu sabe tua força, vem empreender com a gente!
+                    </strong>
                     <span>
-                      The printing and typesetting industry. Lorem Ipsum has
-                      been.
+                      cresça com a gente! vamos acompanhar o seu crescimento te
+                      dando dicas para ser ainda mais independente e produtive.
+                      nosso objetivo é te ver voar sozinhe.
                     </span>
                   </div>
                 </li>

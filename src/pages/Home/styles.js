@@ -127,12 +127,12 @@ export const App = styled.div`
 
   h1 {
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   p {
     max-width: 460px;
-    font-size: 24px;
+    font-size: 22px;
     margin: 0 auto 10px auto;
   }
 `;
@@ -195,9 +195,9 @@ export const ListApp = styled.div`
 `;
 
 export const Circle = styled.div`
-  border: 10px solid ${props => props.color};
+  border: 8px solid ${props => props.color};
   border-radius: 50%;
-  width: 80px;
-  height: 65px;
+  width: 110px;
+  height: 45px;
   margin-right: 40px;
 `;
