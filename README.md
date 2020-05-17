@@ -66,15 +66,15 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
       <br />
       <a href="https://github.com/brendamatias"title="Code">💻</a>
     </td>
-    <!-- <td align="center">
-      <a href=" ">
-        <img src=" " width="100px;" alt="Fabiana Barros"/>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/fabiana-barros-e-silva-3317281a4">
+        <img src=".github/fabiana.jpg" width="100px;" alt="Fabiana Barros e Silva"/>
         <br />
-        <sub><b>Fabiana Barros</b></sub>
+        <sub><b>Fabiana Barros e Silva</b></sub>
       </a>
       <br />
       <a href=""title="Code">💻</a>
-    </td> -->
+    </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/nelkisamatias/">
         <img src=".github/nelkisa.jpg" width="100px;" alt="Nelkisa Matias"/>
