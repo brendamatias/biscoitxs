@@ -55,8 +55,7 @@ export const Content = styled.div`
         display: flex;
 
         > div {
-          width: 40px;
-          height: 40px;
+          padding: 10px;
 
           a {
             display: flex;
