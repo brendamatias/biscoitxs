@@ -106,7 +106,7 @@ export const Timeline = styled.div`
 
   img {
     margin: 80px 0;
-    max-width: 600px;
+    max-width: 800px;
   }
 
   button {

@@ -22,7 +22,7 @@ export const Banner = styled.div`
 
     p {
       font-size: 28px;
-      max-width: 400px;
+      max-width: 520px;
 
       strong {
         font-weight: 800;

@@ -16,8 +16,8 @@ export default function Formations() {
         <div className="container">
           <div>
             <p>
-              vem aprender sobre <strong>Empreendedorismo</strong> e{' '}
-              <strong>Negócios Digitais</strong>
+              vem aprender sobre <strong>empreendedorismo</strong> e{' '}
+              <strong>negócios digitais</strong>
             </p>
 
             <p className="width">
