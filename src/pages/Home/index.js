@@ -31,7 +31,7 @@ export default function Home() {
 
       <Products>
         <div className="container">
-          <h1>Para você que quer comprar...</h1>
+          <h1>para você que quer comprar...</h1>
 
           <div>
             <FiArrowLeft size={30} />
@@ -47,7 +47,7 @@ export default function Home() {
 
       <Timeline>
         <div className="container">
-          <h1>Para você que quer vender...</h1>
+          <h1>para você que quer vender...</h1>
 
           <div>
             <img src={timeline} alt="Products" />
@@ -59,7 +59,7 @@ export default function Home() {
 
       <App>
         <div className="container">
-          <h1>Baixe nosso app!</h1>
+          <h1>baixe nosso app!</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been.

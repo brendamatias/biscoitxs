@@ -12,7 +12,7 @@ export default function Cart() {
       <Container>
         <div className="container">
           <div>
-            <h1>Meu carrinho</h1>
+            <h1>meu carrinho</h1>
             <Products>
               <li>
                 <div>
@@ -102,7 +102,7 @@ export default function Cart() {
             </Products>
           </div>
           <Order>
-            <h1>Resumo do pedido</h1>
+            <h1>resumo do pedido</h1>
 
             <div>
               <span>Subtotal</span>

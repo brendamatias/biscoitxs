@@ -40,6 +40,10 @@ export const Container = styled.div`
     strong,
     p {
       margin: 0;
+
+      svg {
+        margin-right: 5px;
+      }
     }
 
     div {
@@ -48,7 +52,7 @@ export const Container = styled.div`
 
     > div > div {
       svg {
-        margin-right: 20px;
+        margin-right: 10px;
       }
     }
   }

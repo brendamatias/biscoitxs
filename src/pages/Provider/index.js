@@ -1,6 +1,10 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { TiStarFullOutline } from 'react-icons/ti';
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaCookieBite,
+} from 'react-icons/fa';
 
 import DefaultLayout from '~/pages/_layouts/default';
 
@@ -20,7 +24,7 @@ export default function Provider() {
             <div>
               <h1>Ciclano Beltrano</h1>
 
-              <strong>Sobre</strong>
+              <strong>sobre</strong>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -31,18 +35,18 @@ export default function Provider() {
 
               <div className="flex bottom">
                 <div>
-                  <strong>Avaliações</strong>
+                  <strong>avaliações</strong>
 
                   <p>
-                    <TiStarFullOutline color="#FFC107" size={30} />
-                    <TiStarFullOutline color="#FFC107" size={30} />
-                    <TiStarFullOutline color="#FFC107" size={30} />
-                    <TiStarFullOutline color="#FFC107" size={30} />
-                    <TiStarFullOutline color="#FFC107" size={30} />
+                    <FaCookieBite color="#FFC107" size={30} />
+                    <FaCookieBite color="#FFC107" size={30} />
+                    <FaCookieBite color="#FFC107" size={30} />
+                    <FaCookieBite color="#FFC107" size={30} />
+                    <FaCookieBite color="#FFC107" size={30} />
                   </p>
                 </div>
                 <div>
-                  <strong>Redes sociais</strong>
+                  <strong>redes sociais</strong>
                   <div>
                     <FaFacebook color="#01C57D" size={30} />
                     <FaTwitter color="#01C57D" size={30} />
@@ -54,7 +58,7 @@ export default function Provider() {
           </div>
 
           <div className="products">
-            <strong>Anúncios do vendedxr</strong>
+            <strong>anúncios do vendedore</strong>
 
             <div>
               <img src={product} alt="Product" />

@@ -29,6 +29,10 @@ export const Top = styled.div`
     display: block;
   }
 
+  svg {
+    margin-right: 5px;
+  }
+
   h4 {
     margin-top: 40px;
     font-size: 18px;

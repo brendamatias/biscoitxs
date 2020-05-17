@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-
-import { TiStarFullOutline } from 'react-icons/ti';
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaCookieBite,
+} from 'react-icons/fa';
 
 import DefaultLayout from '~/pages/_layouts/default';
 
@@ -22,11 +25,11 @@ export default function Details() {
             <div>
               <strong>Macramê</strong>
               <p>
-                <TiStarFullOutline color="#FFC107" size={20} />
-                <TiStarFullOutline color="#FFC107" size={20} />
-                <TiStarFullOutline color="#FFC107" size={20} />
-                <TiStarFullOutline color="#FFC107" size={20} />
-                <TiStarFullOutline color="#FFC107" size={20} />
+                <FaCookieBite color="#FFC107" size={20} />
+                <FaCookieBite color="#FFC107" size={20} />
+                <FaCookieBite color="#FFC107" size={20} />
+                <FaCookieBite color="#FFC107" size={20} />
+                <FaCookieBite color="#FFC107" size={20} />
               </p>
 
               <span>R$ 75,00</span>
@@ -40,7 +43,7 @@ export default function Details() {
 
           <Middle>
             <div>
-              <strong>Descrição</strong>
+              <strong>descrição</strong>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -51,7 +54,7 @@ export default function Details() {
             </div>
 
             <div>
-              <strong>Vendedxr</strong>
+              <strong>vendedore</strong>
 
               <p>@ciclanobeltrano</p>
               <div>
@@ -65,7 +68,7 @@ export default function Details() {
           </Middle>
 
           <Bottom>
-            <strong>Mais anúncios do vendedxr</strong>
+            <strong>mais anúncios do vendedore</strong>
 
             <div>
               <img src={product} alt="Product" />
