@@ -6,6 +6,8 @@ import { IoIosRocket } from 'react-icons/io';
 import Header from '~/components/Header';
 import Footer from '~/components/Footer';
 
+import formation from '~/assets/formation.png';
+
 import { Banner, Formation } from './styles';
 
 export default function Formations() {
@@ -25,6 +27,7 @@ export default function Formations() {
               habilidades, vem descobrir com a gente
             </p>
           </div>
+          <img src={formation} alt="Produto" />
         </div>
       </Banner>
 
