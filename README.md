@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="Frontend" src=".github/logo.png" width="100%">
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  Merecemos biscoitos :cookie:
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#ghost-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-iniciando-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#door-back-end">Back-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-front-end">Front-end</a>
+</p>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img alt="Frontend" src=".github/biscoitxs" width="100%">
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :ghost: Tecnologias
 
-### `yarn test`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React.js](https://pt-br.reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [AdonisJS](https://adonisjs.com/)
+- [Docker](https://docs.docker.com/)
+- [Postgres](https://www.postgresql.org/)
 
-### `yarn build`
+## :computer: Projeto
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto consiste em...
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :rocket: Iniciando aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Configure o backend em: <a href="https://github.com/brendamatias/biscoitxs-api">Backend</a>
+- Clone este repositório usando `git clone https://github.com/brendamatias/biscoitxs`;
+- Mova-se para diretório da aplicação: `cd biscoitxs`;
+- Execute `yarn install` ou `npm install` para instalar as dependências;
+- Inicie a aplicação com `yarn serve` ou `npm serve`;
 
-### `yarn eject`
+## Team
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/alessa-alves-/">
+        <img src="https://imgur.com/kAiJfgL" width="100px;" alt="Alessa Alves"/>
+        <br />
+        <sub><b>Alessa Alves</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/alessaalves"title="projectManagement">📆</a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/brenda-matias/">
+        <img src="https://imgur.com/SgZbWb7" width="100px;" alt="Brenda Matias"/>
+        <br />
+        <sub><b>Brenda Matias</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/brendamatias"title="Code">💻</a>
+    </td>
+    <!-- <td align="center">
+      <a href=" ">
+        <img src=" " width="100px;" alt="Fabiana Barros"/>
+        <br />
+        <sub><b>Fabiana Barros</b></sub>
+      </a>
+      <br />
+      <a href=""title="Code">💻</a>
+    </td> -->
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nelkisamatias/">
+        <img src="https://imgur.com/E4tWDv9" width="100px;" alt="Nelkisa Matias"/>
+        <br />
+        <sub><b>Nelkisa Matias</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/gabriias"title="Code">💻</a>
+    </td>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  </tr>
+</table>
