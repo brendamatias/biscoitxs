@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { toast } from 'react-toastify';
-
 import DefaultLayout from '~/pages/_layouts/default';
 
 import Sidebar from '~/components/Sidebar';

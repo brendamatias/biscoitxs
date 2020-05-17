@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #ff6494;
+  background: ${props => (props.background ? props.background : '#ff6494')};
 `;
 
 export const Content = styled.div`

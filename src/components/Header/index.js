@@ -1,14 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Link } from 'react-router-dom';
 
 import logo from '~/assets/logo-white.svg';
 
 import { Container, Content } from './styles';
 
-export default function Header() {
+export default function Header({ background }) {
   return (
-    <Container className="container">
-      <Content>
+    <Container background={background}>
+      <Content className="container">
         <Link to="/">
           <img src={logo} alt="Biscoitxs" />
         </Link>
@@ -33,3 +35,11 @@ export default function Header() {
     </Container>
   );
 }
+
+Header.propTypes = {
+  background: PropTypes.string,
+};
+
+Header.defaultProps = {
+  background: '',
+};

@@ -53,7 +53,9 @@ export default function Home() {
             <img src={timeline} alt="Products" />
           </div>
 
-          <button type="submit">veja como se profissionalizar</button>
+          <Link to="/formations">
+            <button type="submit">veja como se profissionalizar</button>
+          </Link>
         </div>
       </Timeline>
 
@@ -64,7 +66,7 @@ export default function Home() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been.
           </p>
-          <p>The industry's standard dummy text ever since the 1500</p>
+          <p>The industry standard dummy text ever since the 1500</p>
 
           <ListApp>
             <img src={app} alt="App Biscoitxs" />

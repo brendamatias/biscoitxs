@@ -3,6 +3,8 @@ import { Switch } from 'react-router-dom';
 import Route from './Route';
 
 import Home from '~/pages/Home';
+import Formations from '~/pages/Formations';
+
 import Cart from '~/pages/Cart';
 import Products from '~/pages/Products';
 import Details from '~/pages/Details';
@@ -19,6 +21,8 @@ export default function Routes() {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
+      <Route path="/formations" component={Formations} />
+
       <Route path="/products" component={Products} />
       <Route path="/cart" component={Cart} />
       <Route path="/details/:product" component={Details} />
