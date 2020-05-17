@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Frontend" src=".github/logo.svg" width="50%">
+  <img alt="Frontend" src=".github/logo.svg" width="30%">
 </h1>
 
 <h4 align="center">
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Projeto
 
-O projeto consiste em...
+O projeto consiste na proposta de desafio do #ficaemcasahack, onde, juntas pensamos em como desenvolver uma ideia de market place para divulgação, capacitação e crescimento profissional da comunidade lgbtqia+.
 
 ## :rocket: Iniciando aplicação
 
