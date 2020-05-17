@@ -20,8 +20,8 @@ export default function Home() {
         <div className="container">
           <div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum.
+              queres divulgação, capacitação e crescimento profissional?{' '}
+              <strong>cola com a gente!</strong>
             </p>
 
             <Button>saiba mais</Button>

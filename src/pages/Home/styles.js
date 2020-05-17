@@ -15,6 +15,10 @@ export const Banner = styled.div`
     align-items: center;
   }
 
+  strong {
+    font-weight: 800;
+  }
+
   div {
     img {
       max-width: 500px;
