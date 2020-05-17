@@ -37,6 +37,12 @@ export const Content = styled.div`
         color: #fff;
         padding: 8px 40px;
         font-weight: 700;
+        transition: background 0.2s;
+
+        &:hover {
+          background: #fff;
+          color: #ff6494;
+        }
       }
     }
   }
