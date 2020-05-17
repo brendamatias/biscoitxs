@@ -55,7 +55,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
         <sub><b>Alessa Alves</b></sub>
       </a>
       <br />
-      <a href="https://github.com/alessaalves"title="projectManagement">📆</a>
+      <a href="https://github.com/alessaalves"title="Project Management">📆</a>
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/brenda-matias/">
@@ -64,7 +64,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
         <sub><b>Brenda Matias</b></sub>
       </a>
       <br />
-      <a href="https://github.com/brendamatias"title="Code">💻</a>
+      <a href="https://github.com/brendamatias"title="Content">🖋</a>
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/fabiana-barros-e-silva-3317281a4">
@@ -73,7 +73,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
         <sub><b>Fabiana Barros e Silva</b></sub>
       </a>
       <br />
-      <a href=""title="Code">💻</a>
+      <a href="https://www.linkedin.com/in/fabiana-barros-e-silva-3317281a4" title="Code">💻</a>
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/nelkisamatias/">
