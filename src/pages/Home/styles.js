@@ -43,35 +43,66 @@ export const Banner = styled.div`
 `;
 
 export const Products = styled.div`
-  background: #69d8e1;
+  background: #747dff;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
 
   h1 {
-    font-size: 30px;
-    color: #000;
     font-weight: 800;
   }
 
-  ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+  > div > div {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    li {
-      div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        width: 220px;
-
-        background: #fff;
-
-        img {
-          width: 180px;
-          height: 240px;
-        }
-      }
+    img {
+      margin: 0 60px;
     }
+
+    svg {
+      background: #fff;
+      color: #747dff;
+      border-radius: 50%;
+      padding: 5px;
+    }
+  }
+
+  button {
+    margin-top: 80px;
+    background: #fff;
+    border: 0;
+    color: #747dff;
+    padding: 10px 60px;
+    border-radius: 36px;
+    font-weight: 700;
+  }
+`;
+
+export const Timeline = styled.div`
+  background: #69d8e1;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+
+  h1 {
+    font-weight: 800;
+  }
+
+  img {
+    margin: 80px 0;
+    max-width: 600px;
+  }
+
+  button {
+    background: #fff;
+    border: 0;
+    color: #747dff;
+    padding: 10px 60px;
+    border-radius: 36px;
+    font-weight: 700;
   }
 `;
 
@@ -141,7 +172,7 @@ export const ListApp = styled.div`
   }
 `;
 
-export const Number = styled.div`
+export const Circle = styled.div`
   border: 10px solid ${props => props.color};
   border-radius: 50%;
   width: 80px;

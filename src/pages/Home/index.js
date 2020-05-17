@@ -1,13 +1,15 @@
 import React from 'react';
+import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 
 import Header from '~/components/Header';
 import Button from '~/components/Button';
 import Footer from '~/components/Footer';
 
-import teste from '~/assets/image-teste.jpg';
+import products from '~/assets/products.png';
+import timeline from '~/assets/timeline.png';
 import app from '~/assets/app.png';
 
-import { Banner, Products, App, ListApp, Number } from './styles';
+import { Banner, Products, Timeline, App, ListApp, Circle } from './styles';
 
 export default function Home() {
   return (
@@ -27,26 +29,30 @@ export default function Home() {
       </Banner>
 
       <Products>
-        <h1>Ei, aproveita as novidades!</h1>
+        <div className="container">
+          <h1>Para você que quer comprar...</h1>
 
-        <ul>
-          <li>
-            <div>
-              <img src={teste} alt="Biscoitxs" />
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src={teste} alt="Biscoitxs" />
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src={teste} alt="Biscoitxs" />
-            </div>
-          </li>
-        </ul>
+          <div>
+            <FiArrowLeft size={30} />
+            <img src={products} alt="Products" />
+            <FiArrowRight size={30} />
+          </div>
+
+          <button type="submit">veja todos nossos produtos</button>
+        </div>
       </Products>
+
+      <Timeline>
+        <div className="container">
+          <h1>Para você que quer vender...</h1>
+
+          <div>
+            <img src={timeline} alt="Products" />
+          </div>
+
+          <button type="submit">veja como se profissionalizar</button>
+        </div>
+      </Timeline>
 
       <App>
         <div className="container">
@@ -62,7 +68,7 @@ export default function Home() {
             <div>
               <ul>
                 <li>
-                  <Number color="#FF6494" />
+                  <Circle color="#FF6494" />
                   <div>
                     <strong>Lorem Ipsum is simply dummy?</strong>
                     <span>
@@ -72,7 +78,7 @@ export default function Home() {
                   </div>
                 </li>
                 <li>
-                  <Number color="#00CE98" />
+                  <Circle color="#00CE98" />
                   <div>
                     <strong>Lorem Ipsum is simply dummy?</strong>
                     <span>
@@ -82,7 +88,7 @@ export default function Home() {
                   </div>
                 </li>
                 <li>
-                  <Number color="#747DFF" />
+                  <Circle color="#747DFF" />
                   <div>
                     <strong>Lorem Ipsum is simply dummy?</strong>
                     <span>
