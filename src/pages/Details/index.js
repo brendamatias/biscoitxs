@@ -4,8 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 import { TiStarFullOutline } from 'react-icons/ti';
 
-import Header from '~/components/HeaderPrimary';
-import Footer from '~/components/Footer';
+import DefaultLayout from '~/pages/_layouts/default';
 
 import productImage from '~/assets/macrame.png';
 import product from '~/assets/product.png';
@@ -14,8 +13,7 @@ import { Container, Top, Middle, Bottom } from './styles';
 
 export default function Details() {
   return (
-    <>
-      <Header />
+    <DefaultLayout>
       <Container>
         <div className="container">
           <Top>
@@ -78,7 +76,6 @@ export default function Details() {
           </Bottom>
         </div>
       </Container>
-      <Footer />
-    </>
+    </DefaultLayout>
   );
 }

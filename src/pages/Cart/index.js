@@ -4,13 +4,11 @@ import { Container, Products, Order } from './styles';
 
 import product from '~/assets/product-macrame.png';
 
-import Header from '~/components/HeaderPrimary';
-import Footer from '~/components/Footer';
+import DefaultLayout from '~/pages/_layouts/default';
 
 export default function Cart() {
   return (
-    <>
-      <Header />
+    <DefaultLayout>
       <Container>
         <div className="container">
           <div>
@@ -124,7 +122,6 @@ export default function Cart() {
           </Order>
         </div>
       </Container>
-      <Footer />
-    </>
+    </DefaultLayout>
   );
 }

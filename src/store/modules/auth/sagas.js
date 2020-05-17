@@ -22,7 +22,7 @@ export function* signIn({ payload }) {
 
     yield put(signInSuccess(token, user));
 
-    history.push('/dashboard');
+    history.push('/products');
   } catch (err) {
     toast.error(getError(err) || 'Erro interno!');
     yield put(signFailure());
@@ -42,7 +42,7 @@ export function* signUp({ payload }) {
 
     yield put(signUpSuccess());
 
-    history.push('/');
+    history.push('/login');
     toast.success('Usuário cadastrado com sucesso!');
   } catch (err) {
     toast.error(getError(err) || 'Erro interno!');

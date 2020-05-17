@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiSearch } from 'react-icons/fi';
 
-import Header from '~/components/HeaderPrimary';
-import Footer from '~/components/Footer';
+import DefaultLayout from '~/pages/_layouts/default';
 
 import product from '~/assets/product.png';
 
@@ -11,8 +10,7 @@ import { Container } from './styles';
 
 export default function Products() {
   return (
-    <>
-      <Header />
+    <DefaultLayout>
       <Container>
         <div className="container">
           <div className="search">
@@ -69,7 +67,6 @@ export default function Products() {
           </ul>
         </div>
       </Container>
-      <Footer />
-    </>
+    </DefaultLayout>
   );
 }

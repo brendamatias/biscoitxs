@@ -2,8 +2,7 @@ import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { TiStarFullOutline } from 'react-icons/ti';
 
-import Header from '~/components/HeaderPrimary';
-import Footer from '~/components/Footer';
+import DefaultLayout from '~/pages/_layouts/default';
 
 import provider from '~/assets/provider.png';
 import product from '~/assets/product.png';
@@ -12,9 +11,7 @@ import { Container } from './styles';
 
 export default function Provider() {
   return (
-    <>
-      <Header />
-
+    <DefaultLayout>
       <Container>
         <div className="container">
           <div className="flex">
@@ -68,7 +65,6 @@ export default function Provider() {
           </div>
         </div>
       </Container>
-      <Footer />
-    </>
+    </DefaultLayout>
   );
 }
