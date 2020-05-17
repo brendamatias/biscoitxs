@@ -23,7 +23,7 @@ export default function Details() {
             <img src={productImage} alt="Produto" />
 
             <div>
-              <strong>Macramê</strong>
+              <strong>macramê</strong>
               <p>
                 <FaCookieBite color="#FFC107" size={20} />
                 <FaCookieBite color="#FFC107" size={20} />
@@ -54,7 +54,7 @@ export default function Details() {
             </div>
 
             <div>
-              <strong>vendedore</strong>
+              <strong>pessoa vendedora</strong>
 
               <p>@ciclanobeltrano</p>
               <div>
@@ -68,7 +68,7 @@ export default function Details() {
           </Middle>
 
           <Bottom>
-            <strong>mais anúncios do vendedore</strong>
+            <strong>mais anúncios da pessoa vendedora</strong>
 
             <div>
               <img src={product} alt="Product" />

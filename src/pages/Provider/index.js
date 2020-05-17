@@ -22,7 +22,7 @@ export default function Provider() {
             <img src={provider} alt="Ciclano" />
 
             <div>
-              <h1>Ciclano Beltrano</h1>
+              <h1>ciclano beltrano</h1>
 
               <strong>sobre</strong>
               <p>
@@ -58,7 +58,7 @@ export default function Provider() {
           </div>
 
           <div className="products">
-            <strong>anúncios do vendedore</strong>
+            <strong>anúncios da pessoa vendedora</strong>
 
             <div>
               <img src={product} alt="Product" />
