@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiSearch } from 'react-icons/fi';
 
 import Header from '~/components/HeaderPrimary';
@@ -26,28 +27,44 @@ export default function Products() {
 
           <ul>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
             <li>
-              <img src={product} alt="Produto" />
+              <Link to="/details/1">
+                <img src={product} alt="Produto" />
+              </Link>
             </li>
           </ul>
         </div>
