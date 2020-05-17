@@ -2,8 +2,8 @@ import React from 'react';
 
 import Header from '~/components/Header';
 import Button from '~/components/Button';
+import Footer from '~/components/Footer';
 
-// import logoBlack from '~/assets/logo-black.png';
 import teste from '~/assets/image-teste.jpg';
 
 import { Banner, Products } from './styles';
@@ -15,7 +15,6 @@ export default function Home() {
       <Banner>
         <div className="container">
           <div>
-            {/* <img src={logoBlack} alt="Biscoitxs" /> */}
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum.
@@ -47,6 +46,7 @@ export default function Home() {
           </li>
         </ul>
       </Products>
+      <Footer />
     </>
   );
 }
