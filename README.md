@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Frontend" src=".github/logo.png" width="100%">
+  <img alt="Frontend" src=".github/logo.svg" width="100%">
 </h1>
 
 <h4 align="center">
@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src=".github/biscoitxs" width="100%">
+  <img alt="Frontend" src=".github/biscoitxs.png" width="100%">
 </p>
 
 ## :ghost: Tecnologias
