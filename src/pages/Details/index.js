@@ -56,7 +56,7 @@ export default function Details() {
             <div>
               <strong>pessoa vendedora</strong>
 
-              <p>@ciclanobeltrano</p>
+              <p>@patriciasouza</p>
               <div>
                 <FaFacebook color="#01C57D" />
                 <FaTwitter color="#01C57D" />

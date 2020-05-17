@@ -21,7 +21,7 @@ export default function Cart() {
                   <div className="column">
                     <div>
                       <strong>macramê</strong>
-                      <span>@ciclanobeltrano</span>
+                      <span>@patriciasouza</span>
                     </div>
                     <p>R$ 75,00</p>
                   </div>
@@ -38,7 +38,7 @@ export default function Cart() {
                   <div className="column">
                     <div>
                       <strong>macramê</strong>
-                      <span>@ciclanobeltrano</span>
+                      <span>@patriciasouza</span>
                     </div>
                     <p>R$ 75,00</p>
                   </div>
@@ -55,7 +55,7 @@ export default function Cart() {
                   <div className="column">
                     <div>
                       <strong>macramê</strong>
-                      <span>@ciclanobeltrano</span>
+                      <span>@patriciasouza</span>
                     </div>
                     <p>R$ 75,00</p>
                   </div>
@@ -72,7 +72,7 @@ export default function Cart() {
                   <div className="column">
                     <div>
                       <strong>macramê</strong>
-                      <span>@ciclanobeltrano</span>
+                      <span>@patriciasouza</span>
                     </div>
                     <p>R$ 75,00</p>
                   </div>
@@ -89,7 +89,7 @@ export default function Cart() {
                   <div className="column">
                     <div>
                       <strong>macramê</strong>
-                      <span>@ciclanobeltrano</span>
+                      <span>@patriciasouza</span>
                     </div>
                     <p>R$ 75,00</p>
                   </div>

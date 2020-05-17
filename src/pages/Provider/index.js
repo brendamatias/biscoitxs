@@ -22,7 +22,7 @@ export default function Provider() {
             <img src={provider} alt="Ciclano" />
 
             <div>
-              <h1>ciclano beltrano</h1>
+              <h1>patricia souza</h1>
 
               <strong>sobre</strong>
               <p>

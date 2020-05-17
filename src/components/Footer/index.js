@@ -17,7 +17,7 @@ export default function Footer() {
             <li>
               <strong>sobre nós</strong>
               <p>
-                olá a todes! somos 4 mulheres participante do #ficaemcasahack,
+                olá a todes! somos 4 mulheres participantes do #ficaemcasahack,
                 que juntas pensamos em como desenvolver uma ideia de market
                 place para divulgação, capacitação e crescimento profissional da
                 comunidade lgbtqia+. sejam todes bem vindes pois essa casa é
