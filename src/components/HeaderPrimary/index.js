@@ -16,13 +16,13 @@ export default function HeaderPrimary() {
 
         <ul>
           <li>
-            <Link to="/products">Início</Link>
+            <Link to="/">Início</Link>
           </li>
           <li>
             <a href="#d">Produtores</a>
           </li>
           <li>
-            <a href="#d">Produtos</a>
+            <Link to="/products">Produtos</Link>
           </li>
 
           <li>

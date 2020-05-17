@@ -24,6 +24,11 @@ export const Content = styled.div`
         color: #fff;
         font-weight: 700;
         font-size: 14px;
+        transition: color 0.2s;
+
+        &:hover {
+          color: #ddd;
+        }
       }
 
       & + li {
