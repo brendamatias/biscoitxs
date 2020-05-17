@@ -10,8 +10,7 @@
   <a href="#ghost-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-iniciando-aplicação">Iniciando aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#door-back-end">Back-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#art-front-end">Front-end</a>
+  <a href="#time">Time</a>
 </p>
 
 <br>
@@ -32,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Projeto
 
-O projeto consiste na proposta de desafio do #ficaemcasahack, onde, juntas pensamos em como desenvolver uma ideia de market place para divulgação, capacitação e crescimento profissional da comunidade lgbtqia+.
+O projeto <a href="https://biscoitxs.netlify.app/" alt="Biscoitxs">Biscoitxs</a> consiste na proposta de desafio do #ficaemcasahack, onde, juntas pensamos em como desenvolver uma ideia de market place para divulgação, capacitação e crescimento profissional da comunidade lgbtqia+.
 
 ## :rocket: Iniciando aplicação
 
