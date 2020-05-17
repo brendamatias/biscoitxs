@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: #01c57d;
   padding: 50px 0;
+  color: #fff;
 
   div {
     img {
@@ -11,7 +12,7 @@ export const Container = styled.div`
 
     ul {
       display: grid;
-      grid-template-columns: 0.5fr 2fr 1fr;
+      grid-template-columns: 0.5fr 2fr 0.8fr;
       grid-gap: 80px;
 
       li {
