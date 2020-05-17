@@ -31,6 +31,12 @@ export const Container = styled.div`
 
           svg {
             margin-right: 20px;
+            cursor: pointer;
+            transition: color 0.2s;
+
+            &:hover {
+              color: #008f5b;
+            }
           }
         }
       }

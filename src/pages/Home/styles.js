@@ -6,7 +6,7 @@ export const Banner = styled.div`
   background: #ff6494;
   background: url(${background}) no-repeat;
   background-position: bottom right 150px;
-  background-size: 50%;
+  /* background-size: 50%; */
   color: #fff;
 
   > div {
@@ -34,6 +34,7 @@ export const Banner = styled.div`
       border-radius: 36px;
       border: 0;
       font-weight: 700;
+      transition: background 0.2s;
 
       &:hover {
         background: #747dff;
@@ -79,6 +80,12 @@ export const Products = styled.div`
     padding: 10px 60px;
     border-radius: 36px;
     font-weight: 700;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #ff6494;
+      color: #fff;
+    }
   }
 `;
 
@@ -104,6 +111,12 @@ export const Timeline = styled.div`
     padding: 10px 60px;
     border-radius: 36px;
     font-weight: 700;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #ff6494;
+      color: #fff;
+    }
   }
 `;
 
@@ -170,6 +183,14 @@ export const ListApp = styled.div`
     border-radius: 36px;
     font-weight: 700;
     margin-top: 60px;
+    transition: background 0.2s;
+    border: 2px solid transparent;
+
+    &:hover {
+      background: #fff;
+      color: #ff6494;
+      border: 2px solid #ff6494;
+    }
   }
 `;
 
