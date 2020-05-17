@@ -3,8 +3,6 @@ import { toast } from 'react-toastify';
 
 import DefaultLayout from '~/pages/_layouts/default';
 
-import Input from '~/components/Input';
-import Button from '~/components/Button';
 import Sidebar from '~/components/Sidebar';
 
 import api from '~/services/api';
@@ -68,7 +66,7 @@ export default function Addresses() {
                   ))}
                 </ul>
               ) : (
-                <h1>n tem endereço</h1>
+                <h1>Ops, você não tem endereços cadastrados.</h1>
               )}
             </>
           ) : (

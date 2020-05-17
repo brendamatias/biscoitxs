@@ -17,12 +17,12 @@ function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link to="/profile">
+          <Link to="/orders">
             <FaShoppingCart size={20} color="#FF6494" /> Compras
           </Link>
         </li>
         <li>
-          <Link to="/profile">
+          <Link to="/sales">
             <BsGrid1X2Fill size={20} color="#FF6494" /> Vendas
           </Link>
         </li>

@@ -13,6 +13,7 @@ import SignUp from '~/pages/SignUp';
 
 import Profile from '~/pages/Profile';
 import Addresses from '~/pages/Addresses';
+import Orders from '~/pages/Orders';
 
 export default function Routes() {
   return (
@@ -28,6 +29,7 @@ export default function Routes() {
 
       <Route path="/profile" component={Profile} isPrivate />
       <Route path="/addresses" component={Addresses} isPrivate />
+      <Route path="/orders" component={Orders} isPrivate />
 
       <Route path="/" component={() => <h1>404</h1>} />
     </Switch>
