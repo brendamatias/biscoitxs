@@ -29,9 +29,9 @@ export default function Provider() {
                 olá, meu nome é patrícia e eu tenho 23 anos. na comunidade lgbt+
                 me identifico como mulher cis lesbica #amoraovale. estou muito
                 feliz que vocês estejam vindo aqui olhar meu serviço como
-                cabeleireira. inclusive, essa do meu lado é a amanda, minha
-                esposa, gostaram do cabelo? adivinhem quem cortou? isso mesmo,
-                sejam bem vindes.
+                cabeleireira e produtora de macramês. inclusive, essa do meu
+                lado é a amanda, minha esposa, gostaram do cabelo? adivinhem
+                quem cortou? isso mesmo, sejam bem vindes.
               </p>
 
               <div className="flex bottom">
