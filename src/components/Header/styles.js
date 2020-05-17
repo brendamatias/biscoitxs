@@ -6,14 +6,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   height: 92px;
-  max-width: 940px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   img {
-    max-width: 140px;
+    max-width: 200px;
   }
 
   ul {
@@ -29,7 +27,16 @@ export const Content = styled.div`
       }
 
       & + li {
-        margin-left: 20px;
+        margin-left: 40px;
+      }
+
+      button {
+        border: 3px solid #fff;
+        background: transparent;
+        border-radius: 36px;
+        color: #fff;
+        padding: 8px 40px;
+        font-weight: 700;
       }
     }
   }

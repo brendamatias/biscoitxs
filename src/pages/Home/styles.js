@@ -3,32 +3,40 @@ import styled from 'styled-components';
 import background from '~/assets/background-home.png';
 
 export const Banner = styled.div`
-  background: url(${background}) no-repeat center;
-  background-color: #fff;
-  background-size: cover;
+  background: #ff6494;
+  background: url(${background}) no-repeat;
+  background-position: bottom right 150px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: calc(100vh - 92px);
+  > div {
+    height: calc(100vh - 92px);
+    display: flex;
+    align-items: center;
+  }
 
   div {
-    text-align: center;
-
     img {
       max-width: 500px;
     }
 
-    h1 {
-      font-size: 36px;
-      color: #000;
-      font-weight: 700;
+    p {
+      font-size: 28px;
+      max-width: 440px;
     }
 
     button {
-      margin-top: 30px;
-      width: 300px;
+      margin-top: 100px;
+      width: 240px;
+      background: #fff;
+      color: #747dff;
+      font-size: 18px;
+      border-radius: 36px;
+      border: 0;
+      font-weight: 700;
+
+      &:hover {
+        background: #747dff;
+        color: #fff;
+      }
     }
   }
 `;

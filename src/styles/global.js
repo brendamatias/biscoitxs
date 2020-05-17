@@ -16,6 +16,11 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
   body, input, button {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
