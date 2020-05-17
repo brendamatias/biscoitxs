@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   background: #69d8e1;
@@ -42,6 +43,34 @@ export const Content = styled.div`
         &:hover {
           background: #fff;
           color: #ff6494;
+        }
+      }
+
+      div {
+        display: flex;
+
+        > div {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #ff6494;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: background 0.2s;
+
+          & + div {
+            margin-left: 10px;
+          }
+
+          &:hover {
+            background: ${shade(0.2, '#ff6494')};
+          }
+        }
+
+        svg {
+          color: #fff;
         }
       }
     }

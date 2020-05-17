@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import logo from '~/assets/logo.svg';
@@ -22,6 +23,20 @@ export default function HeaderPrimary() {
           </li>
           <li>
             <a href="#d">Produtos</a>
+          </li>
+
+          <li>
+            <div>
+              <div>
+                <FiSearch size={20} />
+              </div>
+              <div>
+                <FiShoppingCart size={20} />
+              </div>
+              <div>
+                <FiUser size={20} />
+              </div>
+            </div>
           </li>
         </ul>
       </Content>
