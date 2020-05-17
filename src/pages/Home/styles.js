@@ -6,6 +6,7 @@ export const Banner = styled.div`
   background: #ff6494;
   background: url(${background}) no-repeat;
   background-position: bottom right 150px;
+  background-size: 50%;
   color: #fff;
 
   > div {
