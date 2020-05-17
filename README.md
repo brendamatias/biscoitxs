@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Frontend" src=".github/logo.svg" width="100%">
+  <img alt="Frontend" src=".github/logo.svg" width="50%">
 </h1>
 
 <h4 align="center">
