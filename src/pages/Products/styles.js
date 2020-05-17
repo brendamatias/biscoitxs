@@ -35,10 +35,10 @@ export const Container = styled.div`
       font-weight: 700;
       transition: opacity 0.2s;
       cursor: pointer;
-      opacity: 0.7;
 
       &:hover {
-        opacity: 1;
+        background: #747dff;
+        color: #fff;
       }
     }
   }

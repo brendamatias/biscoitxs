@@ -20,7 +20,7 @@ export const Content = styled.div`
 
     li {
       a {
-        text-transform: uppercase;
+        text-transform: lowercase;
         color: #fff;
         font-weight: 700;
         font-size: 14px;

@@ -66,6 +66,7 @@ export const Products = styled.div`
 
     img {
       margin: 0 60px;
+      max-width: 80%;
     }
 
     svg {
