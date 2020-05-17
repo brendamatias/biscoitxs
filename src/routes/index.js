@@ -12,6 +12,7 @@ import SignIn from '~/pages/SignIn';
 import SignUp from '~/pages/SignUp';
 
 import Profile from '~/pages/Profile';
+import Addresses from '~/pages/Addresses';
 
 export default function Routes() {
   return (
@@ -26,6 +27,7 @@ export default function Routes() {
       <Route path="/register" component={SignUp} />
 
       <Route path="/profile" component={Profile} isPrivate />
+      <Route path="/addresses" component={Addresses} isPrivate />
 
       <Route path="/" component={() => <h1>404</h1>} />
     </Switch>

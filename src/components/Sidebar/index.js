@@ -27,7 +27,7 @@ function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link to="/profile">
+          <Link to="/addresses">
             <FaAddressBook size={20} color="#FF6494" /> Endereços
           </Link>
         </li>
