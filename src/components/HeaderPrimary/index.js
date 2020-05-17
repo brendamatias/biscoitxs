@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '~/assets/logo-white.svg';
+import logo from '~/assets/logo.svg';
 
 import { Container, Content } from './styles';
 
-export default function Header() {
+export default function HeaderPrimary() {
   return (
-    <Container className="container">
-      <Content>
-        <Link to="/">
+    <Container>
+      <Content className="container">
+        <Link to="/products ">
           <img src={logo} alt="Biscoitxs" />
         </Link>
 
@@ -21,12 +21,7 @@ export default function Header() {
             <a href="#d">Produtores</a>
           </li>
           <li>
-            <a href="#d">FAQ</a>
-          </li>
-          <li>
-            <Link to="/products">
-              <button type="submit">acessar a loja</button>
-            </Link>
+            <a href="#d">Produtos</a>
           </li>
         </ul>
       </Content>

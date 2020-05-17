@@ -40,4 +40,8 @@ export default createGlobalStyle`
   ul {
     list-style: none;
   }
+
+  img {
+    -webkit-user-drag: none
+  }
 `;
