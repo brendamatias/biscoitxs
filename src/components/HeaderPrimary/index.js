@@ -9,13 +9,13 @@ export default function HeaderPrimary() {
   return (
     <Container>
       <Content className="container">
-        <Link to="/products ">
+        <Link to="/products">
           <img src={logo} alt="Biscoitxs" />
         </Link>
 
         <ul>
           <li>
-            <a href="#d">Início</a>
+            <Link to="/products">Início</Link>
           </li>
           <li>
             <a href="#d">Produtores</a>

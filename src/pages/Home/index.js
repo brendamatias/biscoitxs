@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 
 import Header from '~/components/Header';
@@ -38,7 +39,9 @@ export default function Home() {
             <FiArrowRight size={30} />
           </div>
 
-          <button type="submit">veja todos nossos produtos</button>
+          <Link to="/products">
+            <button type="submit">veja todos nossos produtos</button>
+          </Link>
         </div>
       </Products>
 

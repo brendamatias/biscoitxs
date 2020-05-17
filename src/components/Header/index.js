@@ -15,7 +15,7 @@ export default function Header() {
 
         <ul>
           <li>
-            <a href="#d">Início</a>
+            <Link to="/">Início</Link>
           </li>
           <li>
             <a href="#d">Produtores</a>
