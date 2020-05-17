@@ -50,7 +50,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/alessa-alves-/">
-        <img src="https://imgur.com/kAiJfgL" width="100px;" alt="Alessa Alves"/>
+        <img src=".github/alessa.jpg" width="100px" alt="Alessa Alves"/>
         <br />
         <sub><b>Alessa Alves</b></sub>
       </a>
@@ -59,7 +59,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/brenda-matias/">
-        <img src="https://imgur.com/SgZbWb7" width="100px;" alt="Brenda Matias"/>
+        <img src=".github/brenda.jpg" width="100px" alt="Brenda Matias"/>
         <br />
         <sub><b>Brenda Matias</b></sub>
       </a>
@@ -77,7 +77,7 @@ Time de pessoas maravilhosa ([emoji key](https://allcontributors.org/docs/en/emo
     </td> -->
     <td align="center">
       <a href="https://www.linkedin.com/in/nelkisamatias/">
-        <img src="https://imgur.com/E4tWDv9" width="100px;" alt="Nelkisa Matias"/>
+        <img src=".github/nelkisa.jpg" width="100px;" alt="Nelkisa Matias"/>
         <br />
         <sub><b>Nelkisa Matias</b></sub>
       </a>
