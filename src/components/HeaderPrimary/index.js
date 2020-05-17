@@ -28,13 +28,19 @@ export default function HeaderPrimary() {
           <li>
             <div>
               <div>
-                <FiSearch size={20} />
+                <Link to="/products">
+                  <FiSearch size={20} />
+                </Link>
               </div>
               <div>
-                <FiShoppingCart size={20} />
+                <Link to="/cart">
+                  <FiShoppingCart size={20} />
+                </Link>
               </div>
               <div>
-                <FiUser size={20} />
+                <Link to="/profile">
+                  <FiUser size={20} />
+                </Link>
               </div>
             </div>
           </li>

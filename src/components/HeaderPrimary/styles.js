@@ -57,7 +57,11 @@ export const Content = styled.div`
         > div {
           width: 40px;
           height: 40px;
-          display: flex;
+
+          a {
+            display: flex;
+          }
+
           justify-content: center;
           align-items: center;
           background: #ff6494;
