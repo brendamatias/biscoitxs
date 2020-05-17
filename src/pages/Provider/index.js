@@ -26,11 +26,12 @@ export default function Provider() {
 
               <strong>sobre</strong>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
+                olá, meu nome é patrícia e eu tenho 23 anos. na comunidade lgbt+
+                me identifico como mulher cis lesbica #amoraovale. estou muito
+                feliz que vocês estejam vindo aqui olhar meu serviço como
+                cabeleireira. inclusive, essa do meu lado é a amanda, minha
+                esposa, gostaram do cabelo? adivinhem quem cortou? isso mesmo,
+                sejam bem vindes.
               </p>
 
               <div className="flex bottom">
